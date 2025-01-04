@@ -140,3 +140,81 @@ h1{
 
 
 }
+
+
+
+
+@media screen and (max-width: 580px) {
+
+    .main {
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .start {
+        width: 30%;
+        height: 10%;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    
+    .panel {
+        width: 80%;
+        min-height: 70%;
+        height: auto;
+        
+    }
+
+    #paneltop {
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        align-items: center;
+        align-items: center;
+
+        }
+    .elem {
+        width: 100%;
+        justify-content: space-between;
+        /* gap: 2px; */
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        /* padding: 0 5px 0 5px; */
+    }
+
+    #bubble{
+        height: 8%;
+        width: 4%;
+        font-size: 12px;
+        background-color: black;
+        border-radius: 50px;
+        color: white;
+        font-family: montserrat;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    
+    }
+
+
+    .name {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+
+
+
+
+   
+    
+
+}
