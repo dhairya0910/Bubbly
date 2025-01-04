@@ -26,6 +26,7 @@
     margin-bottom: 40%;
     margin-right: 5%;
     cursor: pointer;
+    position: relative;
     
 }
 .start:hover{
@@ -133,16 +134,14 @@ h1{
 
 .name{
     font-family: montserrat;
-    margin-top: 43%;
+    /* margin-top: 43%; */
     position: absolute;
-    margin-left: 80%;
+    /* margin-left: 80%; */
     cursor: default;
+     ;
 
 
 }
-
-
-
 
 @media screen and (max-width: 580px) {
 
